@@ -14,6 +14,10 @@ O que deve ser desenvolvido:
 
 6. Implementar os testes da API com Insomnia (até 1.0 ponto).
 
+# Funcionamento
+
+https://github.com/Lemos1347/inteli-modulo-10-prova-2/assets/99190347/0e343a20-30c8-4491-b262-6e0dac39b1b0
+
 # Esquema de pastas
 
 ## [backend](./backend/)
@@ -43,6 +47,12 @@ Para executar a aplicação, basta executar o comando `docker-compose up` na pas
 ## Local
 
 Para executar a aplicação sem docker basta apenas entrar na pasta [backend](./backend/), instalar as blibliotecas:
+
+>[!NOTE]
+> É recomendado que seja criado um virtual environment para a instalação das bibliotecas. Caso, deseje execute no terminal:
+> ```bash
+> python3 -m venv .venv && source .venv/bin/activate
+> ```
 
 ```bash
 pip install -r requirements.txt
