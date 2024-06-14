@@ -1,0 +1,17 @@
+2024-06-14 10:02:55,475 root         WARNING  Request to get all blogs received!
+2024-06-14 10:03:06,914 root         WARNING  Receiving request POST in /blog with body: {'id': 1, 'title': 'My title', 'content': 'My content'}
+2024-06-14 10:03:06,915 root         WARNING  Created blog: {'id': 1, 'title': 'My title', 'content': 'My content'}
+2024-06-14 10:03:14,976 root         WARNING  Request to get blog with id: 1, received!
+2024-06-14 10:03:22,579 root         WARNING  Request to update blog post with id: 1 and body: {'title': 'My new title', 'content': 'My new content'} received!
+2024-06-14 10:03:22,580 root         WARNING  Post: 1 - My new title - My new content edited!
+2024-06-14 10:03:45,317 root         WARNING  Request to delete posts in blog with id: 1 received!
+2024-06-14 10:03:45,317 root         WARNING  Post: 1 - My new title - My new content removed!
+2024-06-14 10:04:05,750 root         WARNING  Request to get blog with id: 1, received!
+2024-06-14 10:05:06,610 root         WARNING  Request to get blog with id: 1, received!
+2024-06-14 10:05:06,610 root         ERROR    Unable to find blog post: 1
+2024-06-14 10:20:07,170 root         WARNING  Request to get all blogs received!
+2024-06-14 13:28:42,116 root         WARNING  Request to get blog with id: 1, received!
+2024-06-14 13:28:42,117 root         ERROR    Unable to find blog post: 1
+2024-06-14 13:28:58,995 root         WARNING  Receiving request POST in /blog with body: {'id': 1, 'title': 'My title', 'content': 'My content'}
+2024-06-14 13:28:58,996 root         WARNING  Created blog: {'id': 1, 'title': 'My title', 'content': 'My content'}
+2024-06-14 13:29:00,980 root         WARNING  Request to get blog with id: 1, received!

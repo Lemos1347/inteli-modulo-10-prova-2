@@ -1,0 +1,15 @@
+version: "3"
+services:
+  api:
+    build:
+      context: ./backend
+    restart: always
+    volumes:
+      - ./backend:/build
+
+  gateway:
+    build: ./gateway
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
